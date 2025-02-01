@@ -1,21 +1,20 @@
 ---
 layout: home
 header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+  title: medMakers
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
-  action: # action button is optional
-    label: Find Out More
+    We empower a new generation of medical technology innovators. Our team of engineers and graduate students brings decades of combined experience in designing and testing medical devices, developing cutting‐edge algorithms, and pioneering wearable solutions. From ideation to execution and product launch, we help transform great ideas into life-changing healthcare innovations.
+  action:
+    label: Learn More
     url: '#about'
-
 
 sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: Driving Innovation in Healthcare
+    text: >
+      At Vanderbilt’s Medical Devices Incubator, we support medical device reseach and product development with hands-on expertise. Whether you're developing a novel wearable, a diagnostic tool, or an algorithm to revolutionize patient care, our team is here to guide you through every phase of product development.
     actions:
       - title: Get Started!
         url: '#page-top'
@@ -23,29 +22,32 @@ sections:
 
   - type: services.html
     section_id: services
-    #background_style: bg-info
-    title: At Your Service
+    title: Our Expertise & Services
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
-        icon: bi-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
-        icon: bi-rocket-takeoff
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
-        icon: bi-activity
-      - title: Made with Love
-        text: You have to make your websites with love these days!
-        icon: bi-heart-fill
-      - title: Other 1
-        text: Some not-so long text here.
-        icon: bi-emoji-heart-eyes
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: bi-emoji-sunglasses-fill
-
+      - title: Device Design & Testing
+        text: >
+          Leverage our extensive experience in designing and rigorously testing medical devices to ensure safety, reliability, and compliance.
+        icon: bi-gear-fill
+      - title: Algorithm Development
+        text: >
+          Build robust data analytics and diagnostic algorithms with guidance from our experts to power smarter healthcare solutions.
+        icon: bi-cpu
+      - title: Wearable Technology
+        text: >
+          From concept to prototype, we specialize in creating wearable devices that integrate seamlessly into everyday life while monitoring health.
+        icon: bi-watch
+      - title: Startup Mentorship
+        text: >
+          Receive end-to-end support—from ideation to market launch—with our seasoned mentors who have taken startups to successful product launches.
+        icon: bi-lightbulb
+      - title: Regulatory & Compliance
+        text: >
+          Navigate the complex landscape of medical regulations with our experienced advisors ensuring your innovations meet all industry standards.
+        icon: bi-shield-check
+      - title: Collaborative Research
+        text: >
+          Partner with Vanderbilt’s top researchers and institutions to turn groundbreaking ideas into real-world applications.
+        icon: bi-book
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
@@ -70,43 +72,35 @@ sections:
         text: This is a very short project description.
         icon: 4.jpg
         url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
-        url: '#'
 
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: Meet Our Team!
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
+      - title: James Weimer
+        text: Executive Director, Assistant Professor of Computer Science
+        image: assets/img/members/Jim.jpeg
         url: '#'
       - title: Taylor Carpenter
-        text: Bass guitar.
-        image: assets/img/members/Taylor.jpg
+        text: Director, Lead System Engineer
+        image: assets/img/members/Taylor.jpeg
         url: '#'
       - title: Evan Krueger
-        text: Lead guitar.
-        image: assets/img/members/Evan.jpg
+        text: Senior Research Engineer
+        image: assets/img/members/Evan.jpeg
         url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
+      - title: Chad Ice
+        text: Senior Research Engineer
+        image: assets/img/members/Chad.jpeg
         url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
+      - title: Chi Huynh
+        text: Graduate Student
+        image: assets/img/members/placeholder.webp
         url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
+      - title: Zhiting Zhou
+        text: Graduate Student
+        image: assets/img/members/placeholder.webp
         url: '#'
 
   # - type: timeline.html
@@ -139,12 +133,7 @@ sections:
     actions:
     - title: E-Mail
       icon: bi-envelope-fill
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: bi-twitter
-      url: '#'
-    - title: Facebook
-      icon: bi-facebook
-      url: '#'
+      url: mailto:makers@vanderbilt.edu
+
 
 ---
