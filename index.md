@@ -88,13 +88,13 @@ sections:
         text: Singer and Songwriter
         image: assets/img/members/person1.jpg
         url: '#'
-      - title: Gary D. Stevens
+      - title: Taylor Carpenter
         text: Bass guitar.
-        image: assets/img/members/person2.jpg
+        image: assets/img/members/Taylor.jpg
         url: '#'
-      - title: Devon J. Fletcher
+      - title: Evan Krueger
         text: Lead guitar.
-        image: assets/img/members/person3.jpg
+        image: assets/img/members/Evan.jpg
         url: '#'
       - title: Todd E. Anderson
         text: Drums, percussion.
