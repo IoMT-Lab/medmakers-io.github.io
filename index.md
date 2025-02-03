@@ -1,7 +1,7 @@
 ---
 layout: home
 header:
-  title: medMakers @ Vanderbilt
+  title: MedMakers @ Vanderbilt
   text: >
     The Vanderbilt MedMakers support medical device research and product prototyping/engineering with hands-on expertise. Whether you’re developing a novel wearable, a diagnostic tool, a mechanical instrument, or an algorithm to revolutionize patient care, our team is here to guide you through every phase of product engineering.
   action:
