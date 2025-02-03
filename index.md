@@ -48,30 +48,30 @@ sections:
         text: >
           Partner with Vanderbilt’s top researchers and institutions to turn groundbreaking ideas into real-world applications.
         icon: bi-book
-  - type: portfolio.html
-    # this section has always ID 'portfolio'
-    #section_id: portfolio
-    #background_style: bg-dark
-    projects:
-      - title: Project 1
-        text: This is a very short project description.
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
-        icon: 1.jpg
-        url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
-        url: '#'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
-        url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
-        url: '#'
+  # - type: portfolio.html
+  #   # this section has always ID 'portfolio'
+  #   #section_id: portfolio
+  #   #background_style: bg-dark
+  #   projects:
+  #     - title: Project 1
+  #       text: This is a very short project description.
+  #       # the images are located in:
+  #       # img/portfolio/fullsize
+  #       # img/portfolio/thumbnails
+  #       icon: 1.jpg
+  #       url: '#'
+  #     - title: Project 2
+  #       text: This is a very short project description.
+  #       icon: 2.jpg
+  #       url: '#'
+  #     - title: Project 3
+  #       text: This is a very short project description.
+  #       icon: 3.jpg
+  #       url: '#'
+  #     - title: Project 4
+  #       text: This is a very short project description.
+  #       icon: 4.jpg
+  #       url: '#'
 
   - type: members.html
     section_id: members
