@@ -96,11 +96,11 @@ sections:
         url: '#'
       - title: Chi Huynh
         text: Graduate Student
-        image: assets/img/members/placeholder.webp
+        image: assets/img/members/Chi.jpeg
         url: '#'
       - title: Zhiting Zhou
         text: Graduate Student
-        image: assets/img/members/placeholder.webp
+        image: assets/img/members/Zhiting.jpeg
         url: '#'
 
   # - type: timeline.html
