@@ -1,9 +1,9 @@
 ---
 layout: home
 header:
-  title: medMakers
+  title: medMakers @ Vanderbilt
   text: >
-    We empower a new generation of medical technology innovators. Our team of engineers and graduate students brings decades of combined experience in designing and testing medical devices, developing cutting‐edge algorithms, and pioneering wearable solutions. From ideation to execution and product launch, we help transform great ideas into life-changing healthcare innovations.
+    The Vanderbilt MedMakers support medical device research and product prototyping/engineering with hands-on expertise. Whether you’re developing a novel wearable, a diagnostic tool, a mechanical instrument, or an algorithm to revolutionize patient care, our team is here to guide you through every phase of product engineering.
   action:
     label: Learn More
     url: '#about'
@@ -14,7 +14,7 @@ sections:
     background_style: bg-primary
     title: Driving Innovation in Healthcare
     text: >
-      At Vanderbilt’s Medical Devices Incubator, we support medical device reseach and product development with hands-on expertise. Whether you're developing a novel wearable, a diagnostic tool, or an algorithm to revolutionize patient care, our team is here to guide you through every phase of product development.
+      We empower a new generation of medical technology innovators. Our team of Vanderbilt faculty, engineers, and students brings decades of combined experience in designing and testing medical devices, developing cutting‐edge algorithms, and pioneering wearable solutions. From ideation to execution and product launch, we help transform great ideas into life-changing healthcare innovations.
     actions:
       - title: Get Started!
         url: '#page-top'
