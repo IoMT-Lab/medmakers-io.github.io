@@ -17,7 +17,7 @@ sections:
       We empower a new generation of medical technology innovators. Our team of Vanderbilt faculty, engineers, and students brings decades of combined experience in designing and testing medical devices, developing cutting‐edge algorithms, and pioneering wearable solutions. From ideation to execution and product launch, we help transform great ideas into life-changing healthcare innovations.
     actions:
       - title: Get Started!
-        url: '#contacts'
+        url: '#page-top'
         class: btn-light
 
   - type: services.html
@@ -96,11 +96,11 @@ sections:
         url: '#'
       - title: Chi Huynh
         text: Graduate Student
-        image: assets/img/members/Chi.jpeg
+        image: assets/img/members/placeholder.webp
         url: '#'
       - title: Zhiting Zhou
         text: Graduate Student
-        image: assets/img/members/Zhiting.jpeg
+        image: assets/img/members/placeholder.webp
         url: '#'
 
   # - type: timeline.html
