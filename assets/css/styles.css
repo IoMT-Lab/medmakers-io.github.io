@@ -46,7 +46,7 @@
   --bs-body-bg: #FFFFFF; /* White */
   --bs-link-color: #B39A50; /* Vanderbilt Gold */
   --bs-link-hover-color: #4D4D4F; /* Dark Gray */
-  --bs-primary-rgb: 244, 98, 58;
+  --bs-primary-rgb: #B39A50; /* Vanderbilt Gold */
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -2850,19 +2850,19 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #f4623a;
-  --bs-btn-border-color: #f4623a;
+  --bs-btn-bg: #B39A50; /* Vanderbilt Gold */
+  --bs-btn-border-color: #B39A50; /* Vanderbilt Gold */
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #cf5331;
-  --bs-btn-hover-border-color: #c34e2e;
-  --bs-btn-focus-shadow-rgb: 246, 122, 88;
+  --bs-btn-hover-bg: #9E8A45; /* Slightly darker variation of Vanderbilt Gold */
+  --bs-btn-hover-border-color: #9E8A45; /* Slightly darker variation of Vanderbilt Gold */
+  --bs-btn-focus-shadow-rgb: 179, 154, 80; /* Vanderbilt Gold RGB */
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #c34e2e;
-  --bs-btn-active-border-color: #b74a2c;
+  --bs-btn-active-bg: #8B7A3C; /* Darker variation of Vanderbilt Gold */
+  --bs-btn-active-border-color: #8B7A3C; /* Darker variation of Vanderbilt Gold */
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #f4623a;
-  --bs-btn-disabled-border-color: #f4623a;
+  --bs-btn-disabled-bg: #B39A50; /* Vanderbilt Gold */
+  --bs-btn-disabled-border-color: #B39A50; /* Vanderbilt Gold */
 }
 
 .btn-secondary {
