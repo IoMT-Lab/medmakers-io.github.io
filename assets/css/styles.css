@@ -8116,8 +8116,8 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(245, 243, 239, 0.5) !important; 
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add drop shadow */
+  color: rgba(245, 243, 239, 0.75) !important; 
+  /* color: rgba(255, 255, 255, 0.5) !important; */
 }
 
 .text-reset {
