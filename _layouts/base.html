@@ -21,14 +21,11 @@
         <link href="assets/css/main.css" rel="stylesheet">
 {% seo %}
     </head>
+
+
+
     <body id="page-top" class="{% if page.layout == site.landing_template %}landing {% endif %}">
-        <header>
-            <div class="container text-center">
-                <img src="../assets/img/DimensionalV.png" alt="Dimensional V" class="header-logo">
-                <h1>{{ site.title }}</h1>
-            </div>
-        </header>
-        {% include nav.html section=section site=site page=page %}
+        {% include nav.html    section=section site=site page=page %}
         {{ content }}
         {% include footer.html section=section site=site page=page %}
 
@@ -44,4 +41,5 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
     </body>
+
 </html>

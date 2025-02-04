@@ -1,5 +1,6 @@
 ---
 layout: home
+logo: assets/img/DimensionalV.png
 header:
   title: MedMakers @ Vanderbilt
   text: >
@@ -137,3 +138,12 @@ sections:
 
 
 ---
+
+<header>
+  <div class="container text-center">
+    <img src="{{ 'assets/img/DimensionalV.png' | relative_url }}" alt="Dimensional V" class="header-logo">
+    <h1>{{ page.header.title }}</h1>
+    <p>{{ page.header.text }}</p>
+    <a href="{{ page.header.action.url }}" class="btn btn-primary">{{ page.header.action.label }}</a>
+  </div>
+</header>
