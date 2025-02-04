@@ -19,7 +19,7 @@ sections:
     actions:
       - title: Get Started!
         url: '#contacts'
-        class: btn-light
+        class: btn-dark
 
   - type: services.html
     section_id: services
