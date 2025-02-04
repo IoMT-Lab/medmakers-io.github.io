@@ -2,7 +2,25 @@
 layout: base
 ---
 
-<header class="masthead">
+<header class="masthead" {% if page.header.background_image %} style="background-image: url('{{ page.header.background_image }}');"{% endif %}>
+    <div class="container px-4 px-lg-5 h-100">
+        <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-8 align-self-end">
+                <img src="{{ page.header.logo | relative_url }}" alt="Dimensional V" class="header-logo">
+                <h1 class="text-white font-weight-bold">{{ page.header.title }}</h1>
+                <hr class="divider" />
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+                <p class="text-white-75 mb-5">{{ page.header.text }}</p>
+                {% if page.header.action %}
+                <a class="btn btn-primary btn-xl" href="{{ page.header.action.url }}">{{ page.header.action.label }}</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- <header class="masthead">
     <div class="container px-4 px-lg-5 h-100">
         <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
             <div class="col-lg-8 align-self-end">
@@ -17,7 +35,7 @@ layout: base
             </div>
         </div>
     </div>
-</header>
+</header> -->
 
 {% for section in page.sections %}
     {% include {{ section.type }} section=section site=site page=page %}
