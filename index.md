@@ -1,6 +1,5 @@
 ---
 layout: home
-logo: assets/img/DimensionalV.png
 header:
   title: MedMakers @ Vanderbilt
   text: >
@@ -8,6 +7,7 @@ header:
   action:
     label: Learn More
     url: '#about'
+  logo: assets/img/DimensionalV.png
 
 sections:
   - type: call-to-action.html
