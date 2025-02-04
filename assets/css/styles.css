@@ -83,6 +83,13 @@
   --bs-highlight-bg: #fff3cd;
 }
 
+.header-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+  height: auto;
+}
+
 *,
 *::before,
 *::after {
@@ -172,6 +179,8 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+
 
 abbr[title] {
   -webkit-text-decoration: underline dotted;
