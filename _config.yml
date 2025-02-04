@@ -1,11 +1,11 @@
-# # Site settings
-# title: MedMakers
-# description: > # this means to ignore newlines until "baseurl:"
-# repository: iotm-lab/medmakers-io.github.io
-# baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "https://medmakers.io" # the base hostname & protocol for your site
-# author: Copyright &copy; 2024 - medMakers
-# lang: en_US
+# Site settings
+title: MedMakers
+description: > # this means to ignore newlines until "baseurl:"
+repository: iotm-lab/medmakers-io.github.io
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://medmakers.io" # the base hostname & protocol for your site
+author: Copyright &copy; 2024 - medMakers
+lang: en_US
 
 # Build settings
 safe: true # always trues on github-pages, disables _plugins/
