@@ -83,11 +83,6 @@
   --bs-highlight-bg: #fff3cd;
 }
 
-.header-section {
-  position: relative;
-  z-index: 1; /* Ensure the header is above the background */
-}
-
 .header-logo {
   display: block;
   margin: 0 auto;
@@ -96,7 +91,6 @@
   position: relative;
   z-index: 2; /* Ensure the logo is above the header content */
 }
-
 
 *,
 *::before,
